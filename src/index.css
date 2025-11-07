@@ -1,0 +1,20 @@
+:root {
+  --background-color: #080808 ;
+  --primary-color:white;
+  --secondary-color:#aaaaaa;
+  --box-color:#0f0f0f;
+}
+
+body{
+  background-color: var(--background-color) !important;
+  font-family: 'Inter' !important;
+  color:var(--primary-color) !important;
+}
+
+:lang(mal) h3{
+  font-size:25px !important;
+  font-family: 'Noto Sans Malayalam' !important;
+}
+:lang(mal){
+  font-family: 'Noto Sans Malayalam';
+}

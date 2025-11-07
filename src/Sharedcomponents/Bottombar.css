@@ -1,0 +1,22 @@
+.holder{
+    background-color: rgba(7, 7, 7, 0.982);
+    backdrop-filter: blur(15px);
+    height: 80px;
+    padding-top: 20px;
+}
+.name{
+    color: var(--secondary-color);
+    font-weight: normal;
+    font-size: 13px;
+    transition: ease-in-out 0.2s;
+}
+.icon{
+    color: var(--secondary-color);
+    transition: ease-in-out 0.2s !important;
+}
+.nav-item:hover{
+    cursor: pointer;
+    .icon,.name{
+        color: white;
+    }
+}
