@@ -1,0 +1,37 @@
+.category-box {
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  padding-top: 10px;
+}
+
+.category-box:hover {
+  transform: translateY(-5px);
+  filter: brightness(1.1);
+}
+
+.icon-background {
+  width: 65px;
+  height: 65px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.category-icon {
+  font-size: 34px;
+  color: #ffffff;
+}
+
+.category-name {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #d6d5d5;
+}
+
+.category-item-col {
+  margin-bottom: 20px;
+}

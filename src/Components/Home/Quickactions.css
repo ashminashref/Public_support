@@ -1,12 +1,12 @@
 .action-box{
     background: linear-gradient(purple,rgb(253, 9, 172));
-    height: 80px;
+    height: 120px;
 }
 .action-box-2{
     background: linear-gradient(rgb(0, 21, 128),rgb(3, 41, 255));
-    height: 80px;
+    height: 120px;
 }
 .action-box-3{
     background: linear-gradient(rgb(128, 55, 0),rgb(255, 68, 0));
-    height: 80px;
+    height: 120px;
 }

@@ -9,7 +9,7 @@ import DomainIcon from '@mui/icons-material/Domain';
 
 function Quickactions() {
   return (
-    <div>
+    <div className='mb-5 pb-5'>
         <p>Quick Actions</p>
         <Row className='gy-4'>
             <Col lg = {4}>

@@ -1,5 +1,5 @@
 .holder{
-    background-color: rgba(7, 7, 7, 0.982);
+    background-color: rgba(7, 7, 7, 0.808);
     backdrop-filter: blur(15px);
     height: 80px;
     padding-top: 20px;
@@ -9,6 +9,7 @@
     font-weight: normal;
     font-size: 13px;
     transition: ease-in-out 0.2s;
+    
 }
 .icon{
     color: var(--secondary-color);

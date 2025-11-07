@@ -1,0 +1,38 @@
+.cont-holder{
+    background-color: var(--box-color);
+    
+}
+.icon-box{
+    padding: 20px;
+    border-radius: 12px;
+    background-color: red;
+}
+.call-btn{
+    height: 50px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: ease-in-out 0.2s !important;
+}
+.call-btn:hover{
+    transform: scale(1.01);
+}
+.sub-heading{
+    color:grey ;
+    font-size: 13px;
+}
+.number-name{
+    padding: 0;
+    margin-top: 20px;
+    line-height: 35px;
+    color: grey;
+}
+.num{
+    color: rgb(61, 119, 245);
+}
+@media(max-width:768px){
+    .number-name{
+        font-size: 12px;
+    }
+}
