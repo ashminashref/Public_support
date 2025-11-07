@@ -15,8 +15,8 @@ const resources = {
     mal: {
         translation:{
             "community-heading":"എല്ലാ പ്രാദേശിക സേവനങ്ങൾക്കുമുള്ള നിങ്ങളുടെ കമ്മ്യൂണിറ്റി ഹബ്",
-            "Top-Link-1":"ആശുപത്രി",
-            "Top-Link-2":"ടാക്സി ഓൺലൈൻ",
+            "Top-link-1":"ആശുപത്രി",
+            "Top-link-2":"ടാക്സി ഓൺലൈൻ",
             "change_language" : "English"
         }
     }
