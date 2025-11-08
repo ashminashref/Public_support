@@ -1,8 +1,8 @@
 .topbar-style {
-  background-color: rgba(20, 20, 20, 0.35); 
-  
+  background-color: rgb(20, 20, 20); 
+/*   
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* For Safari browser support */
+  -webkit-backdrop-filter: blur(10px); For Safari browser support */
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 

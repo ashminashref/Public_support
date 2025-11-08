@@ -1,13 +1,7 @@
-/* --- Base Theme (Dark Mode) --- */
-.dark-theme {
-    background-color: #1a1a1a; /* Very dark background */
-    color: #e0e0e0; /* Light grey text */
-    min-height: 100vh;
-}
 
 /* --- Header Bar (Like "Shop Categories" or "Restaurants Nearby") --- */
 .category-header-bar {
-    background-color: #212121; /* Slightly lighter dark for header */
+    background-color: #000000; /* Slightly lighter dark for header */
     padding: 15px 20px;
     display: flex;
     align-items: center;
@@ -16,22 +10,18 @@
 }
 
 .category-header-bar .back-button {
-    color: #e0e0e0;
-    font-size: 24px;
-    margin-right: 15px;
+    color:var(--secondary-color);
+    font-size: 18px;
+    margin-right: 10px;
     text-decoration: none;
     display: flex; /* To center the icon vertically */
     align-items: center;
 }
 
-.category-header-bar .back-button svg {
-    margin-top: -2px; /* Slight adjustment for arrow alignment */
-}
 
 .category-header-bar .header-title {
     margin: 0;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 18px;
     color: #f0f0f0;
 }
 
@@ -54,7 +44,7 @@
 }
 
 .subcategory-card {
-    background-color: #2a2a2a; /* Dark card background */
+    background-color:var(--box-color); /* Dark card background */
     border-radius: 12px;
     padding: 20px;
     text-align: center;
@@ -73,8 +63,8 @@
 }
 
 .subcategory-icon-box {
-    background-color: #3a3a3a; /* Slightly lighter circle for icon */
-    border-radius: 50%;
+    background-color: #000000; /* Slightly lighter circle for icon */
+    border-radius: 8px;
     width: 60px;
     height: 60px;
     display: flex;
@@ -107,7 +97,7 @@
 }
 
 .list-item-card {
-    background-color: #2a2a2a; /* Dark card background */
+    background-color: var(--box-color); /* Dark card background */
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 15px; /* Space between cards */
@@ -126,18 +116,8 @@
     color: #f0f0f0;
 }
 
-.item-rating {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    color: #ffc107; /* Star color (yellow) */
-    margin-bottom: 5px;
-}
 
-.item-rating .star-icon {
-    margin-right: 5px;
-    font-size: 16px;
-}
+
 
 .item-distance {
     color: #999;

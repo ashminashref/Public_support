@@ -17,8 +17,8 @@ function Topbar() {
         <div className='d-flex justify-content-between align-items-center'>
           <div className='d-flex align-items-center gap-2'>
             <img src="/Img/logo.jpg" className='logo m-0 p-0' alt="" />
-          </div>
-          <div>
+          
+          
                         <h6 className='logo-name m-0 p-0'>Ekaroolkar</h6>
 
           </div>
