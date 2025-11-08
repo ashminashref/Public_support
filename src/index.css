@@ -9,7 +9,9 @@ body{
   background-color: var(--background-color) !important;
   font-family: 'Inter' !important;
   color:var(--primary-color) !important;
+  
 }
+
 
 :lang(mal) h3{
   font-size:25px !important;
@@ -21,7 +23,4 @@ body{
 
 html,body{
   overscroll-behavior: none;
-}
-*::-webkit-scrollbar{
-  display: none !important;
 }
