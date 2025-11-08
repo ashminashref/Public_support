@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-// 1. IMPORT the new 'mainCategories' array
-import { mainCategories } from '../Data/Categories'; // Changed from 'categories'
-import './Items.css';
+// 1. IMPORT the 'mainCategories' array
+import { mainCategories } from '../Data/Categories';
+import './Items.css'; // Make sure you create this CSS file
 
 function Items() {
   return (

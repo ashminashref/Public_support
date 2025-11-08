@@ -15,7 +15,7 @@ export const numbers = [
   },
   {
     icon: EmergencyOutlinedIcon,
-    mainHeading: 'Ambulance',
+    mainHeading: 'Aswas Ambulance',
     subHeading: 'Medical emergency services',
     number: 108,
     iconColor: '#ff3b3b',
@@ -24,18 +24,18 @@ export const numbers = [
   },
   {
     icon: LocalPoliceOutlinedIcon,
-    mainHeading: 'Police',
+    mainHeading: 'Balussery Police',
     subHeading: 'Police emergency',
-    number: 100,
+    number: '0496 26 42 040',
     iconColor: '#006600',
     iconGradient: 'linear-gradient(135deg, #d1ffd1, #006600)',
     buttonGradient: 'linear-gradient(135deg, #61d961, #006600)'
   },
   {
     icon: LocalFireDepartmentOutlinedIcon,
-    mainHeading: 'Fire Brigade',
+    mainHeading: 'Fire Force Mukkam',
     subHeading: 'Fire emergency services',
-    number: 101,
+    number:"0495 2297601",
     iconColor: '#ff6a00',
     iconGradient: 'linear-gradient(135deg, #ffe4cc, #ff6a00)',
     buttonGradient: 'linear-gradient(135deg, #ff9f57, #ff6a00)'

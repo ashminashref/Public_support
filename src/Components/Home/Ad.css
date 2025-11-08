@@ -1,5 +1,5 @@
 .carousel-img {
-  height: 150px;
+  height: 220px;
   border-radius: 5px; /* <-- Set your fixed height here */
   object-fit: cover; /* <-- This is the important part */
   width: 100%; /* This is already handled by w-100, but good to be explicit */
