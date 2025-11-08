@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap'
 
 function Emergencycont() {
   return (
-    <div>
+    <div className=' pt-3'>
       <h1 className='mt-5'>Emergency Contacts</h1>
       <h6 className=' pb-5 fw-normal text-secondary'>Quick access to emergency services</h6>
 
@@ -29,7 +29,7 @@ function Emergencycont() {
                 </div>
 
                 <div className="bottom mt-4">
-                  <a href={`tel:${item.number}`} className='btn call-btn  w-100' style={{background: item.buttonGradient,color:'white'}}>
+                  <a href={`tel:${item.number}`} className='btn call-btn  border-0 w-100' style={{background: item.buttonGradient,color:'white'}}>
                     Call {item.number}
                   </a>
                 </div>

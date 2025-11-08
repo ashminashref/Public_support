@@ -22,3 +22,6 @@ body{
 html,body{
   overscroll-behavior: none;
 }
+*::-webkit-scrollbar{
+  display: none !important;
+}

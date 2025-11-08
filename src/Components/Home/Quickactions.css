@@ -1,21 +1,31 @@
+/* Base styles for the cards remain the same */
 .quick-action-card {
-  /* Remove default border and add a modern shadow */
   border: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-
-  /* Add pointer and transition for a smooth hover effect */
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  color: white;
 }
 
 .quick-action-card:hover {
-  /* "Lift" the card on hover */
   transform: translateY(-5px);
-  
-  /* Increase the shadow for more depth */
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18); /* Slightly darker shadow on hover */
 }
 
-/* You no longer need .action-box, .action-box-2, or .action-box-3.
-  You can delete them from your CSS file.
-*/
+/* Gradient Backgrounds */
+
+/* Gradient 1: Dark Blue/Purple to Black */
+.quick-action-gradient-1 {
+  background: linear-gradient(135deg, #75b9fc, #0062ff); /* Dark blue-grey to black */
+}
+
+/* Gradient 2: Dark Green/Teal to Black */
+.quick-action-gradient-2 {
+  background: linear-gradient(135deg, #16a085, #00ffea); /* Dark teal to black */
+}
+
+/* Gradient 3: Dark Grey/Purple to Black */
+.quick-action-gradient-3 {
+  background: linear-gradient(135deg, #ffd270, #ff9500); /* Dark purple-grey to black */
+}
+

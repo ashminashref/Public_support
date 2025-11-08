@@ -1,7 +1,64 @@
-.lang-btn{
-    border: none;
-    background:none;
-    color: white;
-    width: 120px;
-    font-size: 16px;
+.topbar-style {
+  background-color: rgba(20, 20, 20, 0.35); 
+  
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari browser support */
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.logo{
+    width: 30px;
+    border-radius: 5px;
+}
+/* Style for the logo text */
+.logo-name {
+  color: #ffffff; /* Make text white */
+  font-weight: 700;
+}
+ /* 1. Define the pulse animation */
+        @keyframes pulse-animation {
+            0% {
+                /* Start with no shadow */
+                box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7); 
+            }
+            70% {
+                /* Expand the shadow to 10px and fade it out */
+                box-shadow: 0 0 0 10px rgba(40, 167, 69, 0); 
+            }
+            100% {
+                /* End with no shadow */
+                box-shadow: 0 0 0 0 rgba(40, 167, 69, 0); 
+            }
+        }
+
+        /* 2. The icon itself */
+        .active-blinker {
+            /* This is the solid green circle */
+            width: 12px;
+            height: 12px;
+            background-color: #28a745; /* A vibrant, premium green */
+            border-radius: 50%;
+            
+            /* 3. Apply the animation */
+            animation: pulse-animation 2s infinite;
+        }
+
+.lang-btn {
+  color: #f8f9fa; /* Make text light grey/white */
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.7); /* Optional: add a light border */
+  border-radius: 6px;
+width: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Slight hover effect */
 }

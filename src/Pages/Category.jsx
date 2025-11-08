@@ -8,7 +8,7 @@ import Items from '../Components/Categories/Items'
 function Category() {
   return (
     <div>
-        <Container className='mt-4'>
+        <Container className='mt-5 pt-3 mb-5 pb-5'>
             <Topbar/>
             <Search/>
             <Items/>
