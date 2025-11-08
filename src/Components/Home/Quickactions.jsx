@@ -1,6 +1,6 @@
-import React from 'react'
-import {Row, Col} from 'react-bootstrap'
-import './Quickactions.css'
+import React from 'react';
+import { Row, Col, Card } from 'react-bootstrap'; // Import Card
+import './Quickactions.css';
 
 // MUI Icons
 import HailIcon from '@mui/icons-material/Hail';
@@ -10,32 +10,48 @@ import DomainIcon from '@mui/icons-material/Domain';
 function Quickactions() {
   return (
     <div className='mb-5 pb-5'>
-        <p>Quick Actions</p>
-        <Row className='gy-4'>
-            <Col lg = {4}>
-            <div className="action-box rounded-2 d-flex align-items-center  justify-content-between p-2">
-                <p className='m-0'>Call Taxi</p>
-                <HailIcon/>
-            </div>
-            </Col>
+      <p>Quick Actions</p>
+      <Row className='gy-4'>
+        
+        {/* Card 1 */}
+        <Col lg={4}>
+          <Card className="quick-action-card text-center">
+            <Card.Body>
+              <HailIcon color="primary" sx={{ fontSize: 40 }} />
+              <Card.Text className='m-0 mt-2 fw-bold'>
+                Call Taxi
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
 
-            <Col lg = {4}>
-            <div className="action-box-2 rounded-2 d-flex align-items-center  justify-content-between p-2">
-                <p className='m-0'>Find Plumber</p>
-                <PlumbingIcon/>
-            </div>
-            </Col>
+        {/* Card 2 */}
+        <Col lg={4}>
+          <Card className="quick-action-card text-center">
+            <Card.Body>
+              <PlumbingIcon color="primary" sx={{ fontSize: 40 }} />
+              <Card.Text className='m-0 mt-2 fw-bold'>
+                Find Plumber
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
 
-            <Col lg = {4}>
-            <div className="action-box-3 rounded-2 d-flex align-items-center  justify-content-between p-2">
-                <p className='m-0'>Govt. Office</p>
-                <DomainIcon/>
-            </div>
-            </Col>
+        {/* Card 3 */}
+        <Col lg={4}>
+          <Card className="quick-action-card text-center">
+            <Card.Body>
+              <DomainIcon color="primary" sx={{ fontSize: 40 }} />
+              <Card.Text className='m-0 mt-2 fw-bold'>
+                Govt. Office
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
 
-        </Row>
+      </Row>
     </div>
-  )
+  );
 }
 
-export default Quickactions
+export default Quickactions;

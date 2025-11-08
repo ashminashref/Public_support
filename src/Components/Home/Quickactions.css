@@ -1,12 +1,21 @@
-.action-box{
-    background: linear-gradient(purple,rgb(253, 9, 172));
-    height: 120px;
+.quick-action-card {
+  /* Remove default border and add a modern shadow */
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  /* Add pointer and transition for a smooth hover effect */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
-.action-box-2{
-    background: linear-gradient(rgb(0, 21, 128),rgb(3, 41, 255));
-    height: 120px;
+
+.quick-action-card:hover {
+  /* "Lift" the card on hover */
+  transform: translateY(-5px);
+  
+  /* Increase the shadow for more depth */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
-.action-box-3{
-    background: linear-gradient(rgb(128, 55, 0),rgb(255, 68, 0));
-    height: 120px;
-}
+
+/* You no longer need .action-box, .action-box-2, or .action-box-3.
+  You can delete them from your CSS file.
+*/

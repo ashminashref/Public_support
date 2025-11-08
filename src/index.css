@@ -18,3 +18,7 @@ body{
 :lang(mal){
   font-family: 'Noto Sans Malayalam';
 }
+
+html,body{
+  overscroll-behavior: none;
+}
